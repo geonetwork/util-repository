@@ -49,6 +49,14 @@
 		<category>theme</category>
 	</entry>
 	<entry>
+		<title>OGC service type</title>
+		<link href="http://raw.github.com/geonetwork/util-repository/master/OGCServices.rdf" />
+		<id>urn:geonetwork-opensource.org:thesaurus:ogc:serviceType</id>
+		<updated>2013-01-09T18:30:02Z</updated>
+		<summary>eg. CSW, WMS, WFS.</summary>
+		<category>theme</category>
+	</entry>
+	<entry>
 		<title>France | Liste des régions (French only)</title>
 		<link href="http://raw.github.com/geonetwork/util-repository/master/RegionFR.rdf" />
 		<id>urn:geonetwork-opensource.org:thesaurus:france:regions</id>

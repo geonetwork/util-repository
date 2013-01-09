@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gml="http://www.opengis.net/gml#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xdt="http://www.w3.org/2005/02/xpath-datatypes" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <skos:ConceptScheme rdf:about="urn:ogc:serviceType">
+		<dc:title>Type de service OGC</dc:title>
+		<dc:description>Service OGC.</dc:description>
+		<dc:creator>
+			<foaf:Organization>
+				<foaf:name>BRGM</foaf:name>
+			</foaf:Organization>
+		</dc:creator>
+		<dc:rights>Free to all for non commercial use.</dc:rights>
+		<dcterms:issued>2013-01-09 07:57:15</dcterms:issued>
+		<dcterms:modified>2013-01-09 07:57:15</dcterms:modified>
+	</skos:ConceptScheme>
+	<skos:Concept rdf:about="urn:ogc:serviceType:CatalogueService:2.0.2">
+		<skos:prefLabel xml:lang="fr">CSW 2.0.2</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">CSW 2.0.2</skos:prefLabel>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="urn:ogc:serviceType:WebMapService:1.1.1">
+		<skos:prefLabel xml:lang="fr">WMS 1.1.1</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">WMS 1.1.1</skos:prefLabel>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="urn:ogc:serviceType:WebMapService:1.3.0">
+		<skos:prefLabel xml:lang="fr">WMS 1.3.0</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">WMS 1.3.0</skos:prefLabel>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="urn:ogc:serviceType:WebFeatureService:1.1.0">
+		<skos:prefLabel xml:lang="fr">WFS 1.1.0</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">WFS 1.1.0</skos:prefLabel>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="urn:ogc:serviceType:WebFeatureService:2.0.0">
+		<skos:prefLabel xml:lang="fr">WFS 2.0.0</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">WFS 2.0.0</skos:prefLabel>
+	</skos:Concept>
+</rdf:RDF>
