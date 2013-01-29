@@ -18,7 +18,7 @@
 	</entry>
 	<entry>
 		<title>INSPIRE Themes (in all EU languages)</title>
-		<link href="http://raw.github.com/geonetwork/util-gemet/master/thesauri/gemet-theme.rdf" />
+		<link href="http://raw.github.com/geonetwork/util-gemet/master/thesauri/inspire-theme.rdf" />
 		<id>urn:geonetwork-opensource.org:thesaurus:inspire:theme</id>
 		<updated>2010-10-19T18:30:02Z</updated>
 		<summary>34 INSPIRE Themes described in annex I, II, III.</summary>
