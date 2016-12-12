@@ -6,12 +6,12 @@
 		<dc:description>Mots clés de type géographique pour GeoSource.</dc:description>
 		<dc:creator>
 			<foaf:Organization>
-				<foaf:name>Office International de l'Eau - BRGM</foaf:name>
+				<foaf:name>Office International de l'Eau, BRGM, Neogeo Technologies</foaf:name>
 			</foaf:Organization>
 		</dc:creator>
-		<dc:rights>Free to all for non commercial use.</dc:rights>
-		<dcterms:issued>Fry Sep 22 07:57:15 CEST 2006</dcterms:issued>
-		<dcterms:modified>2006-09-22 07:57:15</dcterms:modified>
+		<dc:rights>GPL v2</dc:rights>
+		<dcterms:issued>Mon Dec 12 11:00:00 CEST 2016</dcterms:issued>
+		<dcterms:modified>2016-12-12 11:00:00</dcterms:modified>
 	</skos:ConceptScheme>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP">
 		<skos:prefLabel xml:lang="fr">départements</skos:prefLabel>
@@ -117,9 +117,10 @@
 		<skos:narrower rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_972"/>
 		<skos:narrower rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_973"/>
 		<skos:narrower rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_974"/>
+		<skos:narrower rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_976"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_49">
-		<skos:prefLabel xml:lang="fr">MAINE-ET-LOIRE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Maine-et-Loire</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-1.286 46.964</gml:lowerCorner>
@@ -130,7 +131,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_52"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_45">
-		<skos:prefLabel xml:lang="fr">LOIRET</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Loiret</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.531 47.487</gml:lowerCorner>
@@ -141,7 +142,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_24"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_01">
-		<skos:prefLabel xml:lang="fr">AIN</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Ain</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>4.745 45.601</gml:lowerCorner>
@@ -149,10 +150,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_82"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_84"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_12">
-		<skos:prefLabel xml:lang="fr">AVEYRON</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Aveyron</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.859 43.679</gml:lowerCorner>
@@ -160,10 +161,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_73"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_51">
-		<skos:prefLabel xml:lang="fr">MARNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Marne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>3.41 48.524</gml:lowerCorner>
@@ -171,10 +172,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_21"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_44"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_84">
-		<skos:prefLabel xml:lang="fr">VAUCLUSE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Vaucluse</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>4.655 43.662</gml:lowerCorner>
@@ -185,7 +186,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_93"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_73">
-		<skos:prefLabel xml:lang="fr">SAVOIE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Savoie</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>5.647 45.065</gml:lowerCorner>
@@ -193,10 +194,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_82"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_84"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_76">
-		<skos:prefLabel xml:lang="fr">SEINE-MARITIME</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Seine-Maritime</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-.326 49.269</gml:lowerCorner>
@@ -204,10 +205,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_23"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_28"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_63">
-		<skos:prefLabel xml:lang="fr">PUY-DE-DOME</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Puy-de-Dôme</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.413 45.292</gml:lowerCorner>
@@ -215,10 +216,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_83"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_84"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_68">
-		<skos:prefLabel xml:lang="fr">HAUT-RHIN</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Haut-Rhin</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>6.889 47.434</gml:lowerCorner>
@@ -226,10 +227,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_42"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_44"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_37">
-		<skos:prefLabel xml:lang="fr">INDRE-ET-LOIRE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Indre-et-Loire</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>.035 46.741</gml:lowerCorner>
@@ -240,7 +241,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_24"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_38">
-		<skos:prefLabel xml:lang="fr">ISERE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Isère</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>4.744 44.689</gml:lowerCorner>
@@ -248,10 +249,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_82"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_84"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_81">
-		<skos:prefLabel xml:lang="fr">TARN</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Tarn</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.537 43.408</gml:lowerCorner>
@@ -259,10 +260,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_73"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_42">
-		<skos:prefLabel xml:lang="fr">LOIRE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Loire</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>3.72 45.226</gml:lowerCorner>
@@ -270,10 +271,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_82"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_84"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_15">
-		<skos:prefLabel xml:lang="fr">CANTAL</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Cantal</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.064 44.621</gml:lowerCorner>
@@ -281,10 +282,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_83"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_84"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_23">
-		<skos:prefLabel xml:lang="fr">CREUSE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Creuse</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.376 45.673</gml:lowerCorner>
@@ -292,10 +293,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_74"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_75"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_25">
-		<skos:prefLabel xml:lang="fr">DOUBS</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Doubs</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>5.713 46.586</gml:lowerCorner>
@@ -303,10 +304,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_43"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_27"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_94">
-		<skos:prefLabel xml:lang="fr">VAL-DE-MARNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Val-de-Marne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.306 48.699</gml:lowerCorner>
@@ -317,7 +318,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_11"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_56">
-		<skos:prefLabel xml:lang="fr">MORBIHAN</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Morbihan</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-3.77 47.168</gml:lowerCorner>
@@ -328,7 +329,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_53"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_71">
-		<skos:prefLabel xml:lang="fr">SAONE-ET-LOIRE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Saône-et-Loire</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>3.664 46.148</gml:lowerCorner>
@@ -336,10 +337,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_26"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_27"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_54">
-		<skos:prefLabel xml:lang="fr">MEURTHE-ET-MOSELLE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Meurthe-et-Moselle</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>5.471 48.362</gml:lowerCorner>
@@ -347,10 +348,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_41"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_44"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_17">
-		<skos:prefLabel xml:lang="fr">CHARENTE-MARITIME</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Charente-Maritime</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-1.562 45.089</gml:lowerCorner>
@@ -358,10 +359,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_54"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_75"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_05">
-		<skos:prefLabel xml:lang="fr">HAUTES-ALPES</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Hautes-Alpes</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>5.439 44.206</gml:lowerCorner>
@@ -383,7 +384,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_93"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_08">
-		<skos:prefLabel xml:lang="fr">ARDENNES</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Ardennes</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>4.037 49.242</gml:lowerCorner>
@@ -391,10 +392,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_21"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_44"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_10">
-		<skos:prefLabel xml:lang="fr">AUBE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Aube</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>3.4 47.913</gml:lowerCorner>
@@ -402,10 +403,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_21"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_44"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_2B">
-		<skos:prefLabel xml:lang="fr">HAUTE-CORSE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Haute-Corse</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>8.276 41.845</gml:lowerCorner>
@@ -416,7 +417,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_94"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_86">
-		<skos:prefLabel xml:lang="fr">VIENNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Vienne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-.111 46.066</gml:lowerCorner>
@@ -424,10 +425,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_54"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_75"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_74">
-		<skos:prefLabel xml:lang="fr">HAUTE-SAVOIE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Haute-Savoie</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>5.808 45.697</gml:lowerCorner>
@@ -435,10 +436,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_82"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_84"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_60">
-		<skos:prefLabel xml:lang="fr">OISE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Oise</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.706 49.006</gml:lowerCorner>
@@ -446,10 +447,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_22"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_32"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_66">
-		<skos:prefLabel xml:lang="fr">PYRENEES-ORIENTALES</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Pyrénées-Orientales</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.761 42.34</gml:lowerCorner>
@@ -457,10 +458,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_91"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_33">
-		<skos:prefLabel xml:lang="fr">GIRONDE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Gironde</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-1.795 44.197</gml:lowerCorner>
@@ -468,10 +469,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_72"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_75"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_35">
-		<skos:prefLabel xml:lang="fr">ILLE-ET-VILAINE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Ille-et-Vilaine</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-2.295 47.667</gml:lowerCorner>
@@ -482,7 +483,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_53"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_80">
-		<skos:prefLabel xml:lang="fr">SOMME</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Somme</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.002 49.591</gml:lowerCorner>
@@ -490,10 +491,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_22"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_32"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_92">
-		<skos:prefLabel xml:lang="fr">HAUTS-DE-SEINE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Hauts-de-Seine</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.153 48.747</gml:lowerCorner>
@@ -504,7 +505,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_11"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_26">
-		<skos:prefLabel xml:lang="fr">DROME</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Drôme</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>4.65 44.113</gml:lowerCorner>
@@ -512,10 +513,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_82"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_84"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_46">
-		<skos:prefLabel xml:lang="fr">LOT</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Lot</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.015 44.215</gml:lowerCorner>
@@ -523,10 +524,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_73"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_03">
-		<skos:prefLabel xml:lang="fr">ALLIER</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Allier</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.274 45.957</gml:lowerCorner>
@@ -534,10 +535,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_83"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_84"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_11">
-		<skos:prefLabel xml:lang="fr">AUDE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Aude</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.707 42.68</gml:lowerCorner>
@@ -545,10 +546,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_91"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_13">
-		<skos:prefLabel xml:lang="fr">BOUCHES-DU-RHONE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Bouches-du-Rhône</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>4.273 42.879</gml:lowerCorner>
@@ -559,7 +560,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_93"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_50">
-		<skos:prefLabel xml:lang="fr">MANCHE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Manche</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-2.301 48.462</gml:lowerCorner>
@@ -567,10 +568,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_25"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_28"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_30">
-		<skos:prefLabel xml:lang="fr">GARD</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Gard</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>3.277 43.259</gml:lowerCorner>
@@ -578,10 +579,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_91"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_31">
-		<skos:prefLabel xml:lang="fr">HAUTE-GARONNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Haute-Garonne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>.458 42.695</gml:lowerCorner>
@@ -589,10 +590,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_73"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_72">
-		<skos:prefLabel xml:lang="fr">SARTHE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Sarthe</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-.423 47.575</gml:lowerCorner>
@@ -603,7 +604,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_52"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_75">
-		<skos:prefLabel xml:lang="fr">PARIS</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Paris</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.234 48.822</gml:lowerCorner>
@@ -614,7 +615,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_11"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_39">
-		<skos:prefLabel xml:lang="fr">JURA</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Jura</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>5.265 46.265</gml:lowerCorner>
@@ -622,10 +623,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_43"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_27"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_41">
-		<skos:prefLabel xml:lang="fr">LOIR-ET-CHER</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Loir-et-Cher</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>.592 47.158</gml:lowerCorner>
@@ -636,7 +637,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_24"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_78">
-		<skos:prefLabel xml:lang="fr">YVELINES</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Yvelines</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.478 48.447</gml:lowerCorner>
@@ -647,7 +648,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_11"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_82">
-		<skos:prefLabel xml:lang="fr">TARN-ET-GARONNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Tarn-et-Garonne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>.743 43.768</gml:lowerCorner>
@@ -655,10 +656,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_73"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_90">
-		<skos:prefLabel xml:lang="fr">TERRITOIRE-DE-BELFORT</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Territoire de Belfort</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>6.772 47.449</gml:lowerCorner>
@@ -666,10 +667,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_43"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_27"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_27">
-		<skos:prefLabel xml:lang="fr">EURE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Eure</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>.301 48.657</gml:lowerCorner>
@@ -677,10 +678,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_23"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_28"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_29">
-		<skos:prefLabel xml:lang="fr">FINISTERE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Finistère</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-5.233 47.514</gml:lowerCorner>
@@ -691,7 +692,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_53"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_48">
-		<skos:prefLabel xml:lang="fr">LOZERE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Lozère</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.998 44.119</gml:lowerCorner>
@@ -699,10 +700,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_91"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_21">
-		<skos:prefLabel xml:lang="fr">COTE-D'OR</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Côte-d'Or</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>4.081 46.906</gml:lowerCorner>
@@ -710,10 +711,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_26"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_27"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_24">
-		<skos:prefLabel xml:lang="fr">DORDOGNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Dordogne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>.003 44.587</gml:lowerCorner>
@@ -721,10 +722,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_72"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_75"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_04">
-		<skos:prefLabel xml:lang="fr">ALPES-DE-HAUTE-PROVENCE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Alpes-de-Haute-Provence</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>5.49 43.685</gml:lowerCorner>
@@ -735,7 +736,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_93"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_09">
-		<skos:prefLabel xml:lang="fr">ARIEGE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Ariège</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>.804 42.579</gml:lowerCorner>
@@ -743,10 +744,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_73"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_47">
-		<skos:prefLabel xml:lang="fr">LOT-ET-GARONNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Lot-et-Garonne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-.144 44.002</gml:lowerCorner>
@@ -754,10 +755,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_72"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_75"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_62">
-		<skos:prefLabel xml:lang="fr">PAS-DE-CALAIS</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Pas-de-Calais</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.162 50.04</gml:lowerCorner>
@@ -765,10 +766,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_31"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_32"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_972">
-		<skos:prefLabel xml:lang="fr">MARTINIQUE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Martinique</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-61.451 14.204</gml:lowerCorner>
@@ -779,7 +780,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_02"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_64">
-		<skos:prefLabel xml:lang="fr">PYRENEES-ATLANTIQUES</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Pyrénées-Atlantiques</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-2.116 42.778</gml:lowerCorner>
@@ -787,10 +788,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_72"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_75"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_65">
-		<skos:prefLabel xml:lang="fr">HAUTES-PYRENEES</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Hautes-Pyrénées</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-.3 42.674</gml:lowerCorner>
@@ -798,10 +799,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_73"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_70">
-		<skos:prefLabel xml:lang="fr">HAUTE-SAONE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Haute-Saône</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>5.372 47.247</gml:lowerCorner>
@@ -809,10 +810,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_43"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_27"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_14">
-		<skos:prefLabel xml:lang="fr">CALVADOS</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Calvados</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-1.149 48.747</gml:lowerCorner>
@@ -820,10 +821,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_25"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_28"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_43">
-		<skos:prefLabel xml:lang="fr">HAUTE-LOIRE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Haute-Loire</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>3.084 44.744</gml:lowerCorner>
@@ -831,10 +832,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_83"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_84"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_44">
-		<skos:prefLabel xml:lang="fr">LOIRE-ATLANTIQUE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Loire-Atlantique</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-2.737 46.829</gml:lowerCorner>
@@ -845,7 +846,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_52"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_53">
-		<skos:prefLabel xml:lang="fr">MAYENNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Mayenne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-1.244 47.737</gml:lowerCorner>
@@ -856,7 +857,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_52"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_19">
-		<skos:prefLabel xml:lang="fr">CORREZE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Corrèze</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.229 44.929</gml:lowerCorner>
@@ -864,10 +865,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_74"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_75"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_22">
-		<skos:prefLabel xml:lang="fr">COTES-D'ARMOR</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Côtes-d'Armor</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-3.751 48.047</gml:lowerCorner>
@@ -878,7 +879,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_53"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_02">
-		<skos:prefLabel xml:lang="fr">AISNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Aisne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.977 48.849</gml:lowerCorner>
@@ -886,10 +887,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_22"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_32"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_85">
-		<skos:prefLabel xml:lang="fr">VENDEE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Vendée</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-2.464 46.108</gml:lowerCorner>
@@ -900,7 +901,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_52"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_971">
-		<skos:prefLabel xml:lang="fr">GUADELOUPE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Guadeloupe</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-61.949 15.648</gml:lowerCorner>
@@ -911,7 +912,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_01"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_974">
-		<skos:prefLabel xml:lang="fr">REUNION</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">La Réunion</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>54.94 -21.772</gml:lowerCorner>
@@ -922,7 +923,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_04"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_55">
-		<skos:prefLabel xml:lang="fr">MEUSE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Meuse</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>4.903 48.416</gml:lowerCorner>
@@ -930,10 +931,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_41"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_44"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_57">
-		<skos:prefLabel xml:lang="fr">MOSELLE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Moselle</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>5.918 48.52</gml:lowerCorner>
@@ -941,10 +942,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_41"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_44"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_87">
-		<skos:prefLabel xml:lang="fr">HAUTE-VIENNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Haute-Vienne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>.661 45.446</gml:lowerCorner>
@@ -952,10 +953,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_74"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_75"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_61">
-		<skos:prefLabel xml:lang="fr">ORNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Orne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-.852 48.172</gml:lowerCorner>
@@ -963,10 +964,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_25"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_28"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_89">
-		<skos:prefLabel xml:lang="fr">YONNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Yonne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.865 47.355</gml:lowerCorner>
@@ -974,10 +975,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_26"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_27"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_91">
-		<skos:prefLabel xml:lang="fr">ESSONNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Essonne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.907 48.294</gml:lowerCorner>
@@ -988,7 +989,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_11"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_52">
-		<skos:prefLabel xml:lang="fr">HAUTE-MARNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Haute-Marne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>4.654 47.596</gml:lowerCorner>
@@ -996,10 +997,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_21"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_44"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_18">
-		<skos:prefLabel xml:lang="fr">CHER</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Cher</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.818 46.419</gml:lowerCorner>
@@ -1010,7 +1011,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_24"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_95">
-		<skos:prefLabel xml:lang="fr">VAL-D'OISE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Val-d'Oise</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>1.644 48.928</gml:lowerCorner>
@@ -1021,7 +1022,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_11"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_973">
-		<skos:prefLabel xml:lang="fr">GUYANE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Guyane</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-54.586 2.114</gml:lowerCorner>
@@ -1032,7 +1033,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_03"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_77">
-		<skos:prefLabel xml:lang="fr">SEINE-ET-MARNE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Seine-et-Marne</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.374 48.126</gml:lowerCorner>
@@ -1043,7 +1044,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_11"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_67">
-		<skos:prefLabel xml:lang="fr">BAS-RHIN</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Bas-Rhin</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>6.967 48.114</gml:lowerCorner>
@@ -1051,10 +1052,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_42"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_44"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_69">
-		<skos:prefLabel xml:lang="fr">RHONE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Rhône</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>4.267 45.453</gml:lowerCorner>
@@ -1062,10 +1063,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_82"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_84"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_34">
-		<skos:prefLabel xml:lang="fr">HERAULT</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Hérault</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.56 43.055</gml:lowerCorner>
@@ -1073,10 +1074,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_91"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_40">
-		<skos:prefLabel xml:lang="fr">LANDES</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Landes</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-2.05 43.496</gml:lowerCorner>
@@ -1084,10 +1085,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_72"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_75"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_79">
-		<skos:prefLabel xml:lang="fr">DEUX-SEVRES</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Deux-Sèvres</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-.841 45.959</gml:lowerCorner>
@@ -1095,10 +1096,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_54"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_75"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_93">
-		<skos:prefLabel xml:lang="fr">SEINE-SAINT-DENIS</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Seine-Saint-Denis</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.33 48.832</gml:lowerCorner>
@@ -1109,7 +1110,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_11"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_28">
-		<skos:prefLabel xml:lang="fr">EURE-ET-LOIR</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Eure-et-Loir</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>.785 47.963</gml:lowerCorner>
@@ -1120,7 +1121,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_24"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_16">
-		<skos:prefLabel xml:lang="fr">CHARENTE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Charente</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-.436 45.19</gml:lowerCorner>
@@ -1128,10 +1129,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_54"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_75"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_07">
-		<skos:prefLabel xml:lang="fr">ARDECHE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Ardèche</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>3.878 44.28</gml:lowerCorner>
@@ -1139,10 +1140,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_82"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_84"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_2A">
-		<skos:prefLabel xml:lang="fr">CORSE-DU-SUD</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Corse-du-Sud</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>8.226 40.949</gml:lowerCorner>
@@ -1153,7 +1154,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_94"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_58">
-		<skos:prefLabel xml:lang="fr">NIEVRE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Nièvre</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.889 46.669</gml:lowerCorner>
@@ -1161,10 +1162,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_26"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_27"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_59">
-		<skos:prefLabel xml:lang="fr">NORD</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Nord</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>2.805 49.978</gml:lowerCorner>
@@ -1172,10 +1173,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_31"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_32"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_88">
-		<skos:prefLabel xml:lang="fr">VOSGES</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Vosges</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>5.414 47.793</gml:lowerCorner>
@@ -1183,10 +1184,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_41"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_44"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_32">
-		<skos:prefLabel xml:lang="fr">GERS</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Gers</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>-.274 43.309</gml:lowerCorner>
@@ -1194,10 +1195,10 @@
 			</gml:Envelope>
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
-		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_73"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_76"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_36">
-		<skos:prefLabel xml:lang="fr">INDRE</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Indre</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>.881 46.361</gml:lowerCorner>
@@ -1208,7 +1209,7 @@
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_24"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_83">
-		<skos:prefLabel xml:lang="fr">VAR</skos:prefLabel>
+		<skos:prefLabel xml:lang="fr">Var</skos:prefLabel>
 		<gml:BoundedBy>
 			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
 				<gml:lowerCorner>5.65 42.92</gml:lowerCorner>
@@ -1217,5 +1218,16 @@
 		</gml:BoundedBy>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
 		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_93"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_976">
+		<skos:prefLabel xml:lang="fr">Mayotte</skos:prefLabel>
+		<gml:BoundedBy>
+			<gml:Envelope gml:srsName="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326">
+				<gml:lowerCorner>45.020 -13.000</gml:lowerCorner>
+				<gml:upperCorner>45.300 -12.637</gml:upperCorner>
+			</gml:Envelope>
+		</gml:BoundedBy>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP"/>
+		<skos:broader rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_06"/>
 	</skos:Concept>
 </rdf:RDF>
