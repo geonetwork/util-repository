@@ -288,7 +288,7 @@
 		<skos:narrower rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_69"/>
 		<skos:narrower rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_73"/>
 		<skos:narrower rdf:resource="http://geonetwork-opensource.org/adminstrativeAreaFr#DEP_74"/>
-	</skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_83">
+	</skos:Concept>
 	<skos:Concept rdf:about="http://geonetwork-opensource.org/adminstrativeAreaFr#REG_93">
 		<skos:prefLabel xml:lang="fr">Provence-Alpes-Côte d'Azur</skos:prefLabel>
 		<skos:altLabel xml:lang="fr">PACA</skos:altLabel>
